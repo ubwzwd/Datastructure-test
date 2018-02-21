@@ -6,6 +6,7 @@ class Integer : public Object
 public:
 	int value;
 	Integer(int value);
-	void Print();
+	void Print(void);
+	bool Compare(Object *other);
 };
 #endif

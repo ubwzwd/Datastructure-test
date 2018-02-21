@@ -21,9 +21,15 @@
     <ClInclude Include="Integer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Deque.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Integer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
